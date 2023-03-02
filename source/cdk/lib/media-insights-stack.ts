@@ -1617,6 +1617,7 @@ import cfnresponse
 import random
 import boto3
 import os
+# comment to force code update
 def id_generator(size=6, chars=string.ascii_lowercase + string.digits):
   return "".join(random.choices(chars, k=size))
 def get_mediaconvert_endpoint():
